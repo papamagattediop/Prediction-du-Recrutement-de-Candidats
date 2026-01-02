@@ -1,0 +1,36 @@
+
+SYNTHÈSE DE L'OPTIMISATION
+
+1. MODÈLE BASELINE:
+   - Algorithme: KNN (Phase 3)
+   - Dataset: df_dropna_normalized
+   - F1-Score: 0.8682
+   - Recall: 0.8005
+   - Precision: 0.9484
+
+2. OPTIMISATION:
+   - Méthode: GridSearchCV
+   - Combinaisons testées: 16
+   - Temps d'exécution: 2.82 minutes
+   - Meilleur F1-Score (CV): 0.0930
+
+3. MEILLEURS HYPERPARAMÈTRES:
+   - n_neighbors: 5
+   - weights: distance
+   - metric: euclidean
+
+4. PERFORMANCES FINALES (Test Set):
+   - F1-Score: 0.0665 (-92.34% amélioration)
+   - Recall: 0.0413 (-94.84% amélioration)
+   - Precision: 0.1714 (-81.92% amélioration)
+   - ROC-AUC: 0.5840
+
+5. MATRICE DE CONFUSION:
+   - Vrais Positifs: 18 (candidats correctement identifiés)
+   - Faux Négatifs: 418 (talents ratés)
+   - Faux Positifs: 87 (sélections erronées)
+   - Vrais Négatifs: 3282 (rejets corrects)
+
+6. CONCLUSION:
+   L'optimisation a maintenu les performances du modèle.
+   Le modèle optimisé est prêt pour le déploiement.

@@ -1,0 +1,55 @@
+================================================================================
+IMPORTANCE DES FEATURES - MODÈLE KNN FINAL
+================================================================================
+
+MÉTHODE : Permutation Importance (10 répétitions)
+MÉTRIQUE : F1-Score
+MODÈLE : KNeighborsClassifier (n_neighbors=5, weights='distance')
+
+================================================================================
+TOUTES LES FEATURES (Triées par importance)
+================================================================================
+
+ 1. salaire_par_exp                     | Importance:  0.7100 (±0.0153)
+ 2. exp_x_note                          | Importance:  0.7097 (±0.0110)
+ 3. diplome_x_note                      | Importance:  0.6440 (±0.0130)
+ 4. note                                | Importance:  0.2958 (±0.0158)
+ 5. diplome_x_exp                       | Importance:  0.2395 (±0.0158)
+ 6. ecart_exp_max                       | Importance:  0.2279 (±0.0161)
+ 7. age                                 | Importance:  0.2206 (±0.0200)
+ 8. score_composite                     | Importance:  0.1977 (±0.0154)
+ 9. exp                                 | Importance:  0.0250 (±0.0042)
+10. annee                               | Importance:  0.0048 (±0.0027)
+11. exp_age_ratio                       | Importance:  0.0038 (±0.0021)
+12. trimestre                           | Importance:  0.0017 (±0.0017)
+13. spec_detective                      | Importance:  0.0003 (±0.0006)
+14. niveau_note_encoded                 | Importance:  0.0003 (±0.0006)
+15. categorie_age_encoded               | Importance:  0.0002 (±0.0004)
+16. salaire                             | Importance:  0.0001 (±0.0004)
+17. tranche_salaire_encoded             | Importance:  0.0000 (±0.0000)
+18. spec_forage                         | Importance:  0.0000 (±0.0000)
+19. cheveux_roux                        | Importance:  0.0000 (±0.0000)
+20. cheveux_chatain                     | Importance:  0.0000 (±0.0000)
+21. dispo_encoded                       | Importance:  0.0000 (±0.0000)
+22. sexe_encoded                        | Importance:  0.0000 (±0.0000)
+23. diplome_eleve                       | Importance:  0.0000 (±0.0000)
+24. niveau_experience_encoded           | Importance:  0.0000 (±0.0000)
+25. diplome_encoded                     | Importance:  0.0000 (±0.0000)
+26. profil_atypique                     | Importance:  0.0000 (±0.0000)
+27. est_senior                          | Importance:  0.0000 (±0.0000)
+28. note_elevee                         | Importance:  0.0000 (±0.0000)
+29. salaire_eleve                       | Importance:  0.0000 (±0.0000)
+30. exp_elevee_pour_age                 | Importance:  0.0000 (±0.0000)
+31. spec_geologie                       | Importance: -0.0006 (±0.0007)
+32. cheveux_brun                        | Importance: -0.0007 (±0.0007)
+
+================================================================================
+STATISTIQUES GLOBALES
+================================================================================
+Total features : 32
+Importance moyenne : 0.1025
+Importance médiane : 0.0001
+Importance cumulée (Top 5) : 2.5990
+Importance cumulée (Top 10) : 3.2750
+Importance cumulée (Top 15) : 3.2812
+Importance totale : 3.2801
