@@ -4,7 +4,7 @@ projet_recrutement_ML/
 ├── 📄 README.md                           # Description du projet  
 ├── 📊 data/  
 │   ├── recrutement_dataset.csv           # Dataset brut (original)  
-│   └── recrutement_cleaned.csv           # Dataset nettoyé  
+│   └── .......          
 │  
 ├── 📓 notebooks/  
 │   ├── 01_AED.ipynb                      # Analyse Exploratoire  
