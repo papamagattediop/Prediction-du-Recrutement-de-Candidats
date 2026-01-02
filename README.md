@@ -22,6 +22,7 @@ projet_recrutement_ML/
 │   └── ...  
 │  
 ├── 📑 rapport/  
-│   └── projet_complet.html               # 🎯 LIVRABLE FINAL  
-│  
-└── 📋 requirements.txt                    # Dépendances Python
+│   └── projet_complet.html               
+│   └── rapport ml.pdf  
+|   └── ...........    
+└── 📋 requirements.txt                    # Dépendances Python   
